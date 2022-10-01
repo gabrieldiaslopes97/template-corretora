@@ -1,0 +1,82 @@
+@media screen and (max-width:600px) {
+
+    
+    header .nav-bar .nav-item{
+        display:none;
+    }
+    header .container-content{
+        margin: 12px 1rem;
+
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .texto{
+        text-align: center;
+        margin: 12px 0;
+    }
+    .texto h1{
+        margin:0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .cadastro{
+        font-size: 12px;
+    }
+
+/*  */
+
+
+.label span::before{
+    position: absolute;
+    background-color: black;
+    content: '';
+    height: 4px;
+    width: 30%;
+    top: 46%;
+    left: -33%;
+}
+
+.label span::after{
+    position: absolute;
+background-color: black;
+content: '';
+height: 4px;
+width: 30%;
+top: 46%;
+right: -31%;
+}
+
+.service-box p{
+    font-size: 10px;
+}
+.label{
+    margin-bottom: 1rem;
+}
+.card-box{
+    margin: 0;
+}
+.rowl{
+    display: block;
+}
+.carde{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.carde .imagem img {
+    width: 100px;
+  }
+.carde .texto p{
+    font-size: 12px;
+}
+}
